@@ -1,0 +1,36 @@
+//Mukhammad Firdaus Zulkarnain
+//Couch
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Inisialisasi variabel untuk menyimpan pengeluaran
+    double biaya_makanan = 0;
+    double biaya_transportasi = 0;
+    double biaya_lainnya = 0;
+
+    // Meminta pengguna untuk memasukkan pengeluaran
+    cout << "Masukkan biaya makanan per minggu: ";
+    cin >> biaya_makanan;
+
+    cout << "Masukkan biaya transportasi per minggu: ";
+    cin >> biaya_transportasi;
+
+    cout << "Masukkan biaya lainnya per minggu: ";
+    cin >> biaya_lainnya;
+
+    // Menghitung total biaya hidup per minggu
+    double total_biaya_hidup = biaya_makanan + 1000biaya_transportasi + biaya_lainnya;
+
+    // Menampilkan total biaya hidup per minggu
+    cout << "Total biaya hidup per minggu adalah: " << total_biaya_hidup << endl;
+    
+    // Menghitung total biaya hidup per hari
+    double total_biaya_harian = total_biaya_hidup/7;
+    
+    // Menampilkan total biaya perhari
+    cout << "Total biaya hidup per hari adalah: " << total_biaya_harian << endl;
+
+    return 0;
+}
